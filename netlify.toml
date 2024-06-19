@@ -1,0 +1,14 @@
+[build]
+  # Directory where your build output is located
+  publish = "build"
+  # Command to build your project
+  command = "npm run build"
+
+# Environment variables (optional)
+[build.environment]
+  NODE_ENV = "production"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
