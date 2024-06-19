@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavItem, NavLogo, NavLink } from './styles';
+// import { Nav, NavItem, NavLogo, NavLink } from './styles';
 import { Link } from 'react-router-dom';
 import "./App.css"
 const SideNav = () => {
