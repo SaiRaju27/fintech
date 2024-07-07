@@ -5,12 +5,14 @@ import MembershipManagement from './MembershipManagement';
 import { Container, MainContent } from './styles';
 
 const App = () => {
+
+  // This is for Routing component
   return (
     <Router>
       <Container>
         <SideNav />
         <MainContent>
-          <Routes>
+          <Routes>   
             <Route path="/" exact element={<MembershipManagement/>} />
           </Routes>
         </MainContent>
